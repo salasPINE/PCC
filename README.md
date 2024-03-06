@@ -6,6 +6,8 @@ PINE Python Crash Course Code and Notebook Files
 
 [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
 
+[Markdown Basic Syntax](https://www.markdownguide.org/basic-syntax/)
+
 [Markdown Formatting](https://help.github.com/en/articles/basic-writing-and-formatting-syntax)
 
 [PythonPCC Github](https://github.com/salasPINE/pythonPCC)
