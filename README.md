@@ -10,19 +10,15 @@ PINE Python Crash Course Code and Notebook Files
 
 [Markdown Formatting](https://help.github.com/en/articles/basic-writing-and-formatting-syntax)
 
-[PythonPCC Github](https://github.com/salasPINE/pythonPCC)
+[PCC Github](https://github.com/salasPINE/PCC)
+
+[PCC Codespace](https://glorious-space-umbrella-wrrw6x75pqp35xjj.github.dev/)
 
 ### Jupyter Notebooks
 [Jupyter](https://jupyter.org/)
 
 ### Google Colab
 [Google Colab](https://colab.research.google.com/)
-
-### Python Turtle
-[Turtle Documentation](https://docs.python.org/3/library/turtle.html)
-
-### Python Tkinter Links
-[Tkinter Documentation](https://docs.python.org/3/library/tk.html)
 
 ### Python Crash Course
 [Python Crash Course-nostarch press](https://nostarch.com/python-crash-course-3rd-edition)
