@@ -3,7 +3,7 @@
 <html lang="en">
 <head><meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>pcc_ch3_ex</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>pcc_ch3_exercises</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <style type="text/css">
     pre { line-height: 125%; }
 td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
@@ -7536,13 +7536,13 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># 3.1_names_zu.py</span>
 
 <span class="c1"># list with names</span>
-<span class="n">names</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'London'</span><span class="p">,</span> <span class="s1">'Olivia'</span><span class="p">,</span> <span class="s1">'Derek'</span><span class="p">,</span> <span class="s1">'Charlie'</span><span class="p">,</span> <span class="s1">'Kanner'</span><span class="p">,</span> <span class="s1">'Brock'</span><span class="p">]</span>
+<span class="n">names</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'Alexander'</span><span class="p">,</span> <span class="s1">'Adam'</span><span class="p">,</span> <span class="s1">'Jorge'</span><span class="p">,</span> <span class="s1">'Juan'</span><span class="p">,</span> <span class="s1">'Jennifer'</span><span class="p">,</span> <span class="s1">'Maria'</span><span class="p">]</span>
 
 <span class="c1"># print one item per line</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">names</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
@@ -7563,12 +7563,12 @@ a.anchor-link {
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>London
-Olivia
-Derek
-Charlie
-Kanner
-Brock
+<pre>Alexander
+Adam
+Jorge
+Juan
+Jennifer
+Maria
 </pre>
 </div>
 </div>
@@ -7596,7 +7596,7 @@ Brock
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># 3.2_greetings_zu.py</span>
 
 <span class="c1"># list of names</span>
-<span class="n">names</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'London'</span><span class="p">,</span> <span class="s1">'Olivia'</span><span class="p">,</span> <span class="s1">'Derek'</span><span class="p">,</span> <span class="s1">'Charlie'</span><span class="p">,</span> <span class="s1">'Kanner'</span><span class="p">,</span> <span class="s1">'Brock'</span><span class="p">]</span>
+<span class="n">names</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'Alexander'</span><span class="p">,</span> <span class="s1">'Adam'</span><span class="p">,</span> <span class="s1">'Jorge'</span><span class="p">,</span> <span class="s1">'Juan'</span><span class="p">,</span> <span class="s1">'Jennifer'</span><span class="p">,</span> <span class="s1">'Maria'</span><span class="p">]</span>
 
 <span class="c1"># variables with welcome message for each person</span>
 <span class="n">message0</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">"Welcome to Tech class </span><span class="si">{</span><span class="n">names</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s2">"</span>
@@ -7706,7 +7706,7 @@ Having a SCOOTER to ride to work would be great
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># 3.4_GuestList_zu.py</span>
@@ -7718,9 +7718,14 @@ Having a SCOOTER to ride to work would be great
 <span class="n">dinnermsg</span> <span class="o">=</span> <span class="s2">"you are cordially invited to dinner."</span>
 
 <span class="c1"># print each guest a dinner message</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Mr. </span><span class="si">{</span><span class="n">guests</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">title</span><span class="p">()</span><span class="si">}</span><span class="s2">, </span><span class="si">{</span><span class="n">dinnermsg</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Mr. </span><span class="si">{</span><span class="n">guests</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">title</span><span class="p">()</span><span class="si">}</span><span class="s2">, </span><span class="si">{</span><span class="n">dinnermsg</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Mr. </span><span class="si">{</span><span class="n">guests</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">title</span><span class="p">()</span><span class="si">}</span><span class="s2">, </span><span class="si">{</span><span class="n">dinnermsg</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">guests</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">title</span><span class="p">()</span><span class="si">}</span><span class="s2">, </span><span class="si">{</span><span class="n">dinnermsg</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">guests</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">title</span><span class="p">()</span><span class="si">}</span><span class="s2">, </span><span class="si">{</span><span class="n">dinnermsg</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">guests</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">title</span><span class="p">()</span><span class="si">}</span><span class="s2">, </span><span class="si">{</span><span class="n">dinnermsg</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+
+<span class="c1"># alternate</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">guests</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">title</span><span class="p">()</span><span class="si">}</span><span class="s2">, you are cordially invited to dinner."</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">guests</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">title</span><span class="p">()</span><span class="si">}</span><span class="s2">, you are cordially invited to dinner."</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">guests</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">title</span><span class="p">()</span><span class="si">}</span><span class="s2">, you are cordially invited to dinner."</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -7733,47 +7738,12 @@ Having a SCOOTER to ride to work would be great
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Mr. Mozart, you are cordially invited to dinner.
-Mr. Ghandi, you are cordially invited to dinner.
-Mr. Franco, you are cordially invited to dinner.
-</pre>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">guests</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'guido'</span><span class="p">,</span> <span class="s1">'jack'</span><span class="p">,</span> <span class="s1">'lynn'</span><span class="p">]</span>
-
-<span class="n">name</span> <span class="o">=</span> <span class="n">guests</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">title</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">, please come to dinner."</span><span class="p">)</span>
-
-<span class="n">name</span> <span class="o">=</span> <span class="n">guests</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">title</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">, please come to dinner."</span><span class="p">)</span>
-
-<span class="n">name</span> <span class="o">=</span> <span class="n">guests</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">title</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">, please come to dinner."</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Guido, please come to dinner.
-Jack, please come to dinner.
-Lynn, please come to dinner.
+<pre>Mozart, you are cordially invited to dinner.
+Ghandi, you are cordially invited to dinner.
+Franco, you are cordially invited to dinner.
+Mozart, you are cordially invited to dinner.
+Ghandi, you are cordially invited to dinner.
+Franco, you are cordially invited to dinner.
 </pre>
 </div>
 </div>
@@ -7853,68 +7823,6 @@ Mr. Franco cannot make it to dinner
 Mr. Mozart, you are cordially invited to dinner.
 Mr. Ghandi, you are cordially invited to dinner.
 Mr. Beethoven, you are cordially invited to dinner.
-</pre>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Invite some people to dinner.</span>
-<span class="n">guests</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'guido van rossum'</span><span class="p">,</span> <span class="s1">'jack turner'</span><span class="p">,</span> <span class="s1">'lynn hill'</span><span class="p">]</span>
-
-<span class="n">name</span> <span class="o">=</span> <span class="n">guests</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">title</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">, please come to dinner."</span><span class="p">)</span>
-
-<span class="n">name</span> <span class="o">=</span> <span class="n">guests</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">title</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">, please come to dinner."</span><span class="p">)</span>
-
-<span class="n">name</span> <span class="o">=</span> <span class="n">guests</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">title</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">, please come to dinner."</span><span class="p">)</span>
-
-<span class="n">name</span> <span class="o">=</span> <span class="n">guests</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">title</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="se">\n</span><span class="s2">Sorry, </span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2"> can't make it to dinner."</span><span class="p">)</span>
-
-<span class="c1"># Jack can't make it! Let's invite Gary instead.</span>
-<span class="k">del</span><span class="p">(</span><span class="n">guests</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
-<span class="n">guests</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="s1">'gary snyder'</span><span class="p">)</span>
-
-<span class="c1"># Print the invitations again.</span>
-<span class="n">name</span> <span class="o">=</span> <span class="n">guests</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">title</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="se">\n</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">, please come to dinner."</span><span class="p">)</span>
-
-<span class="n">name</span> <span class="o">=</span> <span class="n">guests</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">title</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">, please come to dinner."</span><span class="p">)</span>
-
-<span class="n">name</span> <span class="o">=</span> <span class="n">guests</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">title</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">, please come to dinner."</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Guido Van Rossum, please come to dinner.
-Jack Turner, please come to dinner.
-Lynn Hill, please come to dinner.
-
-Sorry, Jack Turner can't make it to dinner.
-
-Guido Van Rossum, please come to dinner.
-Gary Snyder, please come to dinner.
-Lynn Hill, please come to dinner.
 </pre>
 </div>
 </div>
@@ -8024,100 +7932,6 @@ Mr. Shostakovich, you are cordially invited to dinner.
 Mr. Ghandi, you are cordially invited to dinner.
 Mr. Beethoven, you are cordially invited to dinner.
 Mr. Lenin, you are cordially invited to dinner.
-</pre>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Invite some people to dinner.</span>
-<span class="n">guests</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'guido van rossum'</span><span class="p">,</span> <span class="s1">'jack turner'</span><span class="p">,</span> <span class="s1">'lynn hill'</span><span class="p">]</span>
-
-<span class="n">name</span> <span class="o">=</span> <span class="n">guests</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">title</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">, please come to dinner."</span><span class="p">)</span>
-
-<span class="n">name</span> <span class="o">=</span> <span class="n">guests</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">title</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">, please come to dinner."</span><span class="p">)</span>
-
-<span class="n">name</span> <span class="o">=</span> <span class="n">guests</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">title</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">, please come to dinner."</span><span class="p">)</span>
-
-<span class="n">name</span> <span class="o">=</span> <span class="n">guests</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">title</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="se">\n</span><span class="s2">Sorry, </span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2"> can't make it to dinner."</span><span class="p">)</span>
-
-<span class="c1"># Jack can't make it! Let's invite Gary instead.</span>
-<span class="k">del</span><span class="p">(</span><span class="n">guests</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
-<span class="n">guests</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="s1">'gary snyder'</span><span class="p">)</span>
-
-<span class="c1"># Print the invitations again.</span>
-<span class="n">name</span> <span class="o">=</span> <span class="n">guests</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">title</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="se">\n</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">, please come to dinner."</span><span class="p">)</span>
-
-<span class="n">name</span> <span class="o">=</span> <span class="n">guests</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">title</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">, please come to dinner."</span><span class="p">)</span>
-
-<span class="n">name</span> <span class="o">=</span> <span class="n">guests</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">title</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">, please come to dinner."</span><span class="p">)</span>
-
-<span class="c1"># We got a bigger table, so let's add some more people to the list.</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">We got a bigger table!"</span><span class="p">)</span>
-<span class="n">guests</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="s1">'frida kahlo'</span><span class="p">)</span>
-<span class="n">guests</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="s1">'reinhold messner'</span><span class="p">)</span>
-<span class="n">guests</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">'elizabeth peratrovich'</span><span class="p">)</span>
-
-<span class="n">name</span> <span class="o">=</span> <span class="n">guests</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">title</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">, please come to dinner."</span><span class="p">)</span>
-
-<span class="n">name</span> <span class="o">=</span> <span class="n">guests</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">title</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">, please come to dinner."</span><span class="p">)</span>
-
-<span class="n">name</span> <span class="o">=</span> <span class="n">guests</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">title</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">, please come to dinner."</span><span class="p">)</span>
-
-<span class="n">name</span> <span class="o">=</span> <span class="n">guests</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span><span class="o">.</span><span class="n">title</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">, please come to dinner."</span><span class="p">)</span>
-
-<span class="n">name</span> <span class="o">=</span> <span class="n">guests</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span><span class="o">.</span><span class="n">title</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">, please come to dinner."</span><span class="p">)</span>
-
-<span class="n">name</span> <span class="o">=</span> <span class="n">guests</span><span class="p">[</span><span class="mi">5</span><span class="p">]</span><span class="o">.</span><span class="n">title</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">, please come to dinner."</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Guido Van Rossum, please come to dinner.
-Jack Turner, please come to dinner.
-Lynn Hill, please come to dinner.
-
-Sorry, Jack Turner can't make it to dinner.
-
-Guido Van Rossum, please come to dinner.
-Gary Snyder, please come to dinner.
-Lynn Hill, please come to dinner.
-
-We got a bigger table!
-Frida Kahlo, please come to dinner.
-Guido Van Rossum, please come to dinner.
-Reinhold Messner, please come to dinner.
-Gary Snyder, please come to dinner.
-Lynn Hill, please come to dinner.
-Elizabeth Peratrovich, please come to dinner.
 </pre>
 </div>
 </div>
@@ -8279,138 +8093,6 @@ Mr. Lenin, you are still invited to dinner.
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Invite some people to dinner.</span>
-<span class="n">guests</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'guido van rossum'</span><span class="p">,</span> <span class="s1">'jack turner'</span><span class="p">,</span> <span class="s1">'lynn hill'</span><span class="p">]</span>
-
-<span class="n">name</span> <span class="o">=</span> <span class="n">guests</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">title</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">, please come to dinner."</span><span class="p">)</span>
-
-<span class="n">name</span> <span class="o">=</span> <span class="n">guests</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">title</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">, please come to dinner."</span><span class="p">)</span>
-
-<span class="n">name</span> <span class="o">=</span> <span class="n">guests</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">title</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">, please come to dinner."</span><span class="p">)</span>
-
-<span class="n">name</span> <span class="o">=</span> <span class="n">guests</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">title</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="se">\n</span><span class="s2">Sorry, </span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2"> can't make it to dinner."</span><span class="p">)</span>
-
-<span class="c1"># Jack can't make it! Let's invite Gary instead.</span>
-<span class="k">del</span><span class="p">(</span><span class="n">guests</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
-<span class="n">guests</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="s1">'gary snyder'</span><span class="p">)</span>
-
-<span class="c1"># Print the invitations again.</span>
-<span class="n">name</span> <span class="o">=</span> <span class="n">guests</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">title</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="se">\n</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">, please come to dinner."</span><span class="p">)</span>
-
-<span class="n">name</span> <span class="o">=</span> <span class="n">guests</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">title</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">, please come to dinner."</span><span class="p">)</span>
-
-<span class="n">name</span> <span class="o">=</span> <span class="n">guests</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">title</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">, please come to dinner."</span><span class="p">)</span>
-
-<span class="c1"># We got a bigger table, so let's add some more people to the list.</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">We got a bigger table!"</span><span class="p">)</span>
-<span class="n">guests</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="s1">'frida kahlo'</span><span class="p">)</span>
-<span class="n">guests</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="s1">'reinhold messner'</span><span class="p">)</span>
-<span class="n">guests</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">'elizabeth peratrovich'</span><span class="p">)</span>
-
-<span class="n">name</span> <span class="o">=</span> <span class="n">guests</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">title</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">, please come to dinner."</span><span class="p">)</span>
-
-<span class="n">name</span> <span class="o">=</span> <span class="n">guests</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">title</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">, please come to dinner."</span><span class="p">)</span>
-
-<span class="n">name</span> <span class="o">=</span> <span class="n">guests</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">title</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">, please come to dinner."</span><span class="p">)</span>
-
-<span class="n">name</span> <span class="o">=</span> <span class="n">guests</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span><span class="o">.</span><span class="n">title</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">, please come to dinner."</span><span class="p">)</span>
-
-<span class="n">name</span> <span class="o">=</span> <span class="n">guests</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span><span class="o">.</span><span class="n">title</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">, please come to dinner."</span><span class="p">)</span>
-
-<span class="n">name</span> <span class="o">=</span> <span class="n">guests</span><span class="p">[</span><span class="mi">5</span><span class="p">]</span><span class="o">.</span><span class="n">title</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">, please come to dinner."</span><span class="p">)</span>
-
-<span class="c1"># Oh no, the table won't arrive on time!</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">Sorry, we can only invite two people to dinner."</span><span class="p">)</span>
-
-<span class="n">name</span> <span class="o">=</span> <span class="n">guests</span><span class="o">.</span><span class="n">pop</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Sorry, </span><span class="si">{</span><span class="n">name</span><span class="o">.</span><span class="n">title</span><span class="p">()</span><span class="si">}</span><span class="s2"> there's no room at the table."</span><span class="p">)</span>
-
-<span class="n">name</span> <span class="o">=</span> <span class="n">guests</span><span class="o">.</span><span class="n">pop</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Sorry, </span><span class="si">{</span><span class="n">name</span><span class="o">.</span><span class="n">title</span><span class="p">()</span><span class="si">}</span><span class="s2"> there's no room at the table."</span><span class="p">)</span>
-
-<span class="n">name</span> <span class="o">=</span> <span class="n">guests</span><span class="o">.</span><span class="n">pop</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Sorry, </span><span class="si">{</span><span class="n">name</span><span class="o">.</span><span class="n">title</span><span class="p">()</span><span class="si">}</span><span class="s2"> there's no room at the table."</span><span class="p">)</span>
-
-<span class="n">name</span> <span class="o">=</span> <span class="n">guests</span><span class="o">.</span><span class="n">pop</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Sorry, </span><span class="si">{</span><span class="n">name</span><span class="o">.</span><span class="n">title</span><span class="p">()</span><span class="si">}</span><span class="s2"> there's no room at the table."</span><span class="p">)</span>
-
-<span class="c1"># There should be two people left. Let's invite them.</span>
-<span class="n">name</span> <span class="o">=</span> <span class="n">guests</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">title</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">, please come to dinner."</span><span class="p">)</span>
-
-<span class="n">name</span> <span class="o">=</span> <span class="n">guests</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">title</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2">, please come to dinner."</span><span class="p">)</span>
-
-<span class="c1"># Empty out the list.</span>
-<span class="k">del</span><span class="p">(</span><span class="n">guests</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
-<span class="k">del</span><span class="p">(</span><span class="n">guests</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
-
-<span class="c1"># Prove the list is empty.</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">guests</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Guido Van Rossum, please come to dinner.
-Jack Turner, please come to dinner.
-Lynn Hill, please come to dinner.
-
-Sorry, Jack Turner can't make it to dinner.
-
-Guido Van Rossum, please come to dinner.
-Gary Snyder, please come to dinner.
-Lynn Hill, please come to dinner.
-
-We got a bigger table!
-Frida Kahlo, please come to dinner.
-Guido Van Rossum, please come to dinner.
-Reinhold Messner, please come to dinner.
-Gary Snyder, please come to dinner.
-Lynn Hill, please come to dinner.
-Elizabeth Peratrovich, please come to dinner.
-
-Sorry, we can only invite two people to dinner.
-Sorry, Elizabeth Peratrovich there's no room at the table.
-Sorry, Lynn Hill there's no room at the table.
-Sorry, Gary Snyder there's no room at the table.
-Sorry, Reinhold Messner there's no room at the table.
-Frida Kahlo, please come to dinner.
-Guido Van Rossum, please come to dinner.
-[]
-</pre>
-</div>
-</div>
-</div>
-</div>
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
@@ -8518,89 +8200,6 @@ Reverse alphabetical:
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">locations</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'himalaya'</span><span class="p">,</span> <span class="s1">'andes'</span><span class="p">,</span> <span class="s1">'tierra del fuego'</span><span class="p">,</span> <span class="s1">'labrador'</span><span class="p">,</span> <span class="s1">'guam'</span><span class="p">]</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="s2">"Original order:"</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">locations</span><span class="p">)</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">Alphabetical:"</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="nb">sorted</span><span class="p">(</span><span class="n">locations</span><span class="p">))</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">Original order:"</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">locations</span><span class="p">)</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">Reverse alphabetical:"</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="nb">sorted</span><span class="p">(</span><span class="n">locations</span><span class="p">,</span> <span class="n">reverse</span><span class="o">=</span><span class="kc">True</span><span class="p">))</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">Original order:"</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">locations</span><span class="p">)</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">Reversed:"</span><span class="p">)</span>
-<span class="n">locations</span><span class="o">.</span><span class="n">reverse</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">locations</span><span class="p">)</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">Original order:"</span><span class="p">)</span>
-<span class="n">locations</span><span class="o">.</span><span class="n">reverse</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">locations</span><span class="p">)</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">Alphabetical"</span><span class="p">)</span>
-<span class="n">locations</span><span class="o">.</span><span class="n">sort</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">locations</span><span class="p">)</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">Reverse alphabetical"</span><span class="p">)</span>
-<span class="n">locations</span><span class="o">.</span><span class="n">sort</span><span class="p">(</span><span class="n">reverse</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">locations</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Original order:
-['himalaya', 'andes', 'tierra del fuego', 'labrador', 'guam']
-
-Alphabetical:
-['andes', 'guam', 'himalaya', 'labrador', 'tierra del fuego']
-
-Original order:
-['himalaya', 'andes', 'tierra del fuego', 'labrador', 'guam']
-
-Reverse alphabetical:
-['tierra del fuego', 'labrador', 'himalaya', 'guam', 'andes']
-
-Original order:
-['himalaya', 'andes', 'tierra del fuego', 'labrador', 'guam']
-
-Reversed:
-['guam', 'labrador', 'tierra del fuego', 'andes', 'himalaya']
-
-Original order:
-['himalaya', 'andes', 'tierra del fuego', 'labrador', 'guam']
-
-Alphabetical
-['andes', 'guam', 'himalaya', 'labrador', 'tierra del fuego']
-
-Reverse alphabetical
-['tierra del fuego', 'labrador', 'himalaya', 'guam', 'andes']
-</pre>
-</div>
-</div>
-</div>
-</div>
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
@@ -8608,7 +8207,7 @@ Reverse alphabetical
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="3-9-Dinner-Guests">3-9 Dinner Guests<a class="anchor-link" href="#3-9-Dinner-Guests">¶</a></h2><p>Working with one of the programs from Exercises 3-4 through 3-7 (pages 41–42), use len() to print a message indicating the number of people you’re inviting to dinner.</p>
+<h2 id="3-9-Dinner-Guests">3-9 Dinner Guests<a class="anchor-link" href="#3-9-Dinner-Guests">¶</a></h2><p>Working with one of the programs from Exercises 3-4 through 3-7, use len() to print a message indicating the number of people you’re inviting to dinner.</p>
 </div>
 </div>
 </div>
@@ -8633,6 +8232,7 @@ Reverse alphabetical
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Mr. </span><span class="si">{</span><span class="n">guests</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">title</span><span class="p">()</span><span class="si">}</span><span class="s2">, </span><span class="si">{</span><span class="n">dinnermsg</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Mr. </span><span class="si">{</span><span class="n">guests</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">title</span><span class="p">()</span><span class="si">}</span><span class="s2">, </span><span class="si">{</span><span class="n">dinnermsg</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
 
+<span class="nb">print</span><span class="p">()</span>
 <span class="c1"># how many are coming?</span>
 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"There are </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">guests</span><span class="p">)</span><span class="si">}</span><span class="s2"> guests coming to dinner."</span><span class="p">)</span>
 </pre></div>
@@ -8650,6 +8250,7 @@ Reverse alphabetical
 <pre>Mr. Mozart, you are cordially invited to dinner.
 Mr. Ghandi, you are cordially invited to dinner.
 Mr. Franco, you are cordially invited to dinner.
+
 There are 3 guests coming to dinner.
 </pre>
 </div>
