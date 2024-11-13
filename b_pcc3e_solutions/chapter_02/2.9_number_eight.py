@@ -1,0 +1,8 @@
+print("Addition:")
+print(4 + 4)
+print("Subtraction:")
+print(20 - 12)
+print("Multiplication:")
+print(2 * 4)
+print("Division:")
+print(80 / 10)

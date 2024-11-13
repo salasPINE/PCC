@@ -20,3 +20,5 @@ print(f"\n{word.title()}: {glossary[word]}")
 
 word = 'dictionary'
 print(f"\n{word.title()}: {glossary[word]}")
+
+# this is a comment
