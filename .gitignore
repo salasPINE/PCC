@@ -173,3 +173,6 @@ driver.py
 
 # Mac OS
 .DS_Store
+
+# VS Code
+.vscode
