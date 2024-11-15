@@ -10,8 +10,6 @@ PINE Python Crash Course Code and Notebook Files
 
 [Markdown Formatting](https://help.github.com/en/articles/basic-writing-and-formatting-syntax)
 
-[PCC Codespace](https://glorious-space-umbrella-wrrw6x75pqp35xjj.github.dev/)
-
 ### Jupyter Notebooks
 [Jupyter](https://jupyter.org/)
 
